@@ -14,6 +14,7 @@ public class Main {
 		Unit unit1 = new Unit("H123 D34", "Object Oriented Programming");
 	}
 	
+	//This function returns the user inputted string
 	public String getUserString(String displayString)
 	{
 		if(!displayString.equals(null))
@@ -24,6 +25,7 @@ public class Main {
 		return inputScanner.next();
 	}
 	
+	//This method checks and returns the user inputted int
 	public int getUserInt(String displayString)
 	{
 		if(!displayString.equals(null))
