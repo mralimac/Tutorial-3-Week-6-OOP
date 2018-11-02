@@ -12,6 +12,7 @@ public class Main {
 	//Method Section
 	public static void main(String[] args) {
 		Unit unit1 = new Unit("H123 D34", "Object Oriented Programming");
+		unit1.generateMenu();
 	}
 	
 	//This function returns the user inputted string
